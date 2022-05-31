@@ -1,0 +1,136 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#mainContainer {
+  overflow: scroll;
+  height: 100%;
+}
+
+.links {
+  background-color: black;
+  font-size: 32px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+
+.links > a {
+  display: inline-block;
+  color: white;
+  text-shadow: 1px 1px silver;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 3px solid white;
+  box-shadow: 5px 5px white;
+  margin: 10px;
+}
+
+.links > a:hover {
+  box-shadow: 3px 3px silver;
+  border: 3px solid silver;
+  transform: scale(1.05);
+}
+
+#midDiv {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#mainBody {
+  color: white;
+  justify-content: center;
+}
+
+#mazda {
+  display: inline-block;
+  border: 1px solid white;
+  width: 40%;
+  height: 590px;
+  box-shadow: 7px 7px white;
+  background-color: #d8e031;
+}
+
+#toyota {
+  display: inline-block;
+  border: 1px solid white;
+  width: 40%;
+  height: 590px;
+  box-shadow: 7px 7px white;
+  background-color: #7518b8;
+}
+
+#nissan {
+  display: inline-block;
+  border: 1px solid white;
+  width: 40%;
+  height: 590px;
+  box-shadow: 7px 7px white;
+  background-color: #0201ff;
+}
+
+td {
+  padding: 30px;
+  font-size: 25px;
+}
+
+.left {
+  font-weight: bolder;
+  text-align: right;
+  text-shadow: 2px 2px gray;
+  border-right: 0.5px solid gray;
+}
+
+.slikaRight {
+  height: 550px;
+  margin-left: 40px;
+  box-shadow: 7px 7px white;
+  border: 2px solid white;
+  transition: 0.2s;
+}
+
+.slikaRight:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px white;
+}
+
+.slikaLeft {
+  height: 550px;
+  margin-right: 40px;
+  box-shadow: 7px 7px white;
+  border: 2px solid white;
+  transition: 0.2s;
+}
+
+.slikaLeft:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px white;
+}
+
+.smallContainer {
+  margin: 50px;
+  height: 580px;
+}
+
+tr {
+  transition: 0.3s;
+}
+
+tr:hover {
+  transform: scale(1.05);
+  background-color: white;
+  color: black;
+}
+
+td {
+  transition: 0.3s;
+}
+
+td:hover {
+  transform: scale(1.05);
+  background-color: white;
+  color: black;
+}

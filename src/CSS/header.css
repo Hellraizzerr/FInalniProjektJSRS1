@@ -1,0 +1,32 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#headerContainer {
+  color: white;
+  background-color: black;
+  opacity: 0.85;
+  position: relative;
+  text-align: center;
+  width: 80%;
+  height: 600px;
+  line-height: 250px;
+}
+
+#headerContainer > h1 {
+  font-size: 60px;
+  z-index: 1000;
+  text-shadow: 7px 7px black;
+}
+
+#headerContainer > h2 {
+  z-index: 1000;
+  text-shadow: 7px 7px black;
+}
+
+#image {
+  z-index: -1;
+  position: absolute;
+  height: 600px;
+  right: 220px;
+}

@@ -1,0 +1,13 @@
+* {
+  color: white;
+}
+
+#footerContainer {
+  display: inline-block;
+  margin: 40px;
+  text-align: center;
+}
+
+h3 {
+  width: 100%;
+}
